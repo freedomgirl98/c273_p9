@@ -18,7 +18,7 @@ $(document).ready(function () {
     var labels = [];
     $.ajax({
         type: "GET",
-        url: "http://localhost/C273/C273/P09/CloudNine/getStatistics.php",
+        url: "https://c273-p09.azurewebsites.net/getStatistics.php",
         cache: false,
         dataType: "JSON",
         success: function (response) {
