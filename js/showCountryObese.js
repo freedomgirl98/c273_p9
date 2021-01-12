@@ -4,7 +4,7 @@ $(document).ready(function () {
         var id = $("#idCountry").val();
         $.ajax({
             type: "GET",
-            url: "http://localhost//C273/C273/P09/CloudNine/getCountryDetails.php",
+            url: "https://c273-p09.azurewebsites.net/getCountryDetails.php",
             cache: false,
             data: "id=" + id,
             dataType: "JSON",
